@@ -1,0 +1,21 @@
+{
+  "name": "botdl",
+  "version": "1.0.0",
+  "description": "downloader",
+  "bin": {
+    "botdl": "./bin/botdl.js"
+  },
+  "main": "index.js",
+  "repository": {},
+  "author": "djavrell <kevin.prouteau@epitech.eu>",
+  "maintainers": [
+    "djavrell <kevin.prouteau@epitech.eu>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "moment": "^2.18.1",
+    "node-status": "^1.0.0",
+    "wget-improved": "^1.5.0"
+  }
+}
