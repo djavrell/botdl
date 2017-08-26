@@ -5,8 +5,14 @@
   "bin": {
     "botdl": "./bin/botdl.js"
   },
-  "main": "index.js",
-  "repository": {},
+  "main": "./index",
+  "repository": {
+    "url": "https://github.com/djavrell/botdl"
+  },
+  "homepage": "https://github.com/djavrell/botdl",
+  "bugs": {
+    "url": "https://github.com/djavrell/botdl/issues"
+  },
   "author": "djavrell <kevin.prouteau@epitech.eu>",
   "maintainers": [
     "djavrell <kevin.prouteau@epitech.eu>"
@@ -17,5 +23,8 @@
     "moment": "^2.18.1",
     "node-status": "^1.0.0",
     "wget-improved": "^1.5.0"
+  },
+  "engines": {
+    "node": ">=0.8"
   }
 }
